@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain_groq
+langchain_core
+streamlit
+dotenv
+arxiv
+wikipedia
+duckduckgo-search==0.8
+deep_translator
