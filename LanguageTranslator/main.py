@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-groq_api_key=st.secrets('GROQ_API_KEY')
+groq_api_key=st.secrets['GROQ_API_KEY']
 model=ChatGroq(model="Gemma2-9b-It",groq_api_key=groq_api_key)
 
 
