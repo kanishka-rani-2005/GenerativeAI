@@ -4,3 +4,4 @@ langchain_core
 dotenv
 streamlit
 langchain_groq
+Faiss
