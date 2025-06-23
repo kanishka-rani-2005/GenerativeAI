@@ -13,8 +13,9 @@ from dotenv import load_dotenv
 
 # Load API Key
 load_dotenv()
-
-groq_api_key = st.secrets["GROQ_API_KEY"]
+groq_api_key = os.getenv("GROQ_API_KEY")
+if groq_api_key is None:
+    raise RuntimeError("GROQ_API_KEY not found in environment!")
 
 model = ChatGroq(model="Gemma2-9b-It", groq_api_key=groq_api_key)
 
