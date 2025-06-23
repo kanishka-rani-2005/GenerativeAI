@@ -1,0 +1,20 @@
+langchain
+ipykernel
+python-dotenv ## to import env keys in jupyter
+langchain_community
+pypdf
+bs4
+arxiv
+pymupdf
+fitz
+chromadb
+sentence_transformers
+langchain-huggingface
+tqdm
+faiss-cpu
+langchain_chroma
+langchain_groq
+langchain_core
+streamlit
+langserve
+wikipedia
