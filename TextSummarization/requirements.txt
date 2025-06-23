@@ -6,3 +6,4 @@ validators
 unstructured
 youtube-transcript-api
 pytube
+transformers
