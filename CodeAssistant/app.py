@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import json
 
-url = "http://localhost:11434/api/generate"
+url = st.secrets["OLLAMA_URL"]
 
 headers={
     'Content-Type': 'application/json',
